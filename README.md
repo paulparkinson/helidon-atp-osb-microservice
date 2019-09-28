@@ -18,8 +18,8 @@
     	5. refer to the helidon-mp-atp-deployment.yaml file as an example and make mods to TNS_NAME, url, secretKeyRef, mountPath, secretName, etc. as appropriate for your ATP instance 
     	6. change the image/repos location in helidon-mp-atp-deployment.yaml 
     	7. run ./deploy.sh to install the deployment and service 
-    	8. you can access the app by calling http://host:port/getConnectionMetaData (eg curl http://localhost:8080/
-    	    -  if calling from a pod within the cluster (eg kubectl run curl --image=radial/busyboxplus:curl -i --tty --rm), it will be http://helidonatp:8080/getshoppingcart
+    	8. you can access the app by calling http://host:port/getConnectionMetaData (eg curl http://localhost:8080/getConnectionMetaData)
+    	    -  if calling from a pod within the cluster (eg kubectl run curl --image=radial/busyboxplus:curl -i --tty --rm), it will be http://helidonatp:8080/getConnectionMetaData
     	    -  TODO complete... if calling directly on node that is public ... k get nodes (ip)... k get service
     	    -  TODO complete... if calling directly on node that is not public ... k get nodes (ip)... kubectl port-forward -n datademo $(kubectl get pod -l app=helidonatp -o jsonpath='{.items[0].metadata.name}') 8080
     	    -  TODO complete... if calling via istio gateway ... gatewayurl...

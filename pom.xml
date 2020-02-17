@@ -130,9 +130,29 @@
             <scope>runtime</scope>
         </dependency>
         <dependency>
-            <groupId>com.oracle.ojdbc</groupId>
-            <artifactId>ojdbc10</artifactId>
-            <version>19.3.0.0</version>
+            <groupId>com.oracle.jdbc</groupId>
+            <artifactId>ojdbc11</artifactId>
+            <version>20.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.jdbc</groupId>
+            <artifactId>ucp</artifactId>
+            <version>20.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.jdbc</groupId>
+            <artifactId>osdt_core</artifactId>
+            <version>20.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.jdbc</groupId>
+            <artifactId>osdt_cert</artifactId>
+            <version>20.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.jdbc</groupId>
+            <artifactId>oraclepki</artifactId>
+            <version>20.1</version>
         </dependency>
     </dependencies>
 </project>

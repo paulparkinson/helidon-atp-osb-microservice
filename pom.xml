@@ -132,27 +132,27 @@
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>ojdbc11</artifactId>
-            <version>19.3</version>
+            <version>19.3.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>ucp</artifactId>
-            <version>19.3</version>
+            <version>19.3.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>osdt_core</artifactId>
-            <version>19.3</version>
+            <version>19.3.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>osdt_cert</artifactId>
-            <version>19.3</version>
+            <version>19.3.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>oraclepki</artifactId>
-            <version>19.3</version>
+            <version>19.3.0.0</version>
         </dependency>
     </dependencies>
 </project>

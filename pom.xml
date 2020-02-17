@@ -112,7 +112,7 @@
             <dependency>
                 <groupId>io.helidon</groupId>
                 <artifactId>helidon-bom</artifactId>
-                <version>1.2.0</version>
+                <version>1.4.0</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -132,27 +132,27 @@
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>ojdbc11</artifactId>
-            <version>20.1</version>
+            <version>19.3</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>ucp</artifactId>
-            <version>20.1</version>
+            <version>19.3</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>osdt_core</artifactId>
-            <version>20.1</version>
+            <version>19.3</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>osdt_cert</artifactId>
-            <version>20.1</version>
+            <version>19.3</version>
         </dependency>
         <dependency>
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>oraclepki</artifactId>
-            <version>20.1</version>
+            <version>19.3</version>
         </dependency>
     </dependencies>
 </project>
